@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+#nav-bar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar-icon-right-padding {
+    padding-right: 5px;
+}
+
+.nav-item-hover-background-change-light:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .1875rem;
+    transition: 0.3s;
+}
+
+.nav-item-hover-background-change-dark:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: .1875rem;
+    transition: 0.3s;
+}
+
+.nav-item-hover-background-change-light:not(:hover), .nav-item-hover-background-change-dark:not(:hover) {
+    transition: 0.3s;
+}

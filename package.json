@@ -40,6 +40,10 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "@types/jquery": "^3.3.31",
+    "bootstrap": "^4.4.1",
+    "gh-pages": "^2.1.1",
+    "popper.js": "^1.16.0"
   }
 }
