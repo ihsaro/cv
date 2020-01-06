@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 #nav-bar {
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav-bar-icon-right-padding {
+nav div ul li a i {
     padding-right: 5px;
 }
 
