@@ -3,7 +3,7 @@ window.onscroll = () => {
     toggleGoToTopWidget();
 }
 
-function adaptNavigationBar() : void {
+function adaptNavigationBar() {
     let navigationBar = document.getElementById('nav-bar');
     let navigationBarItems = document.getElementsByClassName('nav-item');
 
@@ -29,7 +29,7 @@ function adaptNavigationBar() : void {
     }
 }
 
-function toggleGoToTopWidget() : void {
+function toggleGoToTopWidget() {
     $(document).ready(function () {
         if (document.documentElement.scrollTop === 0) {
             $("#divArrowGoToTop").fadeOut(500);
@@ -40,7 +40,7 @@ function toggleGoToTopWidget() : void {
     });
 }
 
-function goToTop() : void {
+function goToTop() {
     var position =
         document.body.scrollTop || document.documentElement.scrollTop;
     if (position) {

@@ -10,9 +10,16 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
     }
 
     public render() {
+
+        const items =  this.props.jsonResource.NavigationBarItems.map((item: any) => {
+            return <li key={item.Name} className="nav-item nav-item-hover-background-change-light">
+                <a className="nav-link" href={item.Link}><i className={`${item.FontAwesomeIcon} nav-bar-icon-right-padding`}></i>{item.Name}</a>
+            </li>
+        })
+
         return (
             <nav id="nav-bar" className="navbar navbar-expand-md fixed-top bg-light navbar-light">
-                <a id="brand" className="navbar-brand" href="#">Idjaz Hossanee</a>
+            <a id="brand" className="navbar-brand" href="#">{this.props.jsonResource.NavigationBarBrand}</a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
@@ -20,18 +27,7 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
 
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
-                        {(() => {
-                            let navBarItems: any[] = [];
-
-                            for (let i = 0; i < this.props.lstLabels.length; i++) {
-                                navBarItems.push(
-                                    <li className="nav-item nav-item-hover-background-change-light">
-                                        <a className="nav-link" href={this.props.lstHref[i]}><i className={this.props.lstFontAwesomeIcons[i]}></i>{this.props.lstLabels[i]}</a>
-                                    </li>
-                                );
-                            }
-                            return navBarItems;
-                        })()}
+                        {items}
                     </ul>
                 </div>
             </nav>
