@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.3.31",
     "gh-pages": "^2.1.1"
   }
 }

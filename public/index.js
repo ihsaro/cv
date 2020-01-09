@@ -1,32 +1,5 @@
 window.onscroll = () => {
-    adaptNavigationBar();
-    toggleGoToTopWidget();
-}
-
-function adaptNavigationBar() {
-    let navigationBar = document.getElementById('nav-bar');
-    let navigationBarItems = document.getElementsByClassName('nav-item');
-
-    if (document.documentElement.scrollTop === 0) {
-        navigationBar.classList.remove('navbar-dark');
-        navigationBar.classList.remove('bg-dark');
-        navigationBar.classList.add('navbar-light');
-        navigationBar.classList.add('bg-light');
-        for (let i = 0; i < navigationBarItems.length; i++) {
-            navigationBarItems[i].classList.remove('nav-item-hover-background-change-dark');
-            navigationBarItems[i].classList.add('nav-item-hover-background-change-light');
-        }
-    }
-    else {
-        navigationBar.classList.remove('navbar-light');
-        navigationBar.classList.remove('bg-light');
-        navigationBar.classList.add('navbar-dark');
-        navigationBar.classList.add('bg-dark');
-        for (let i = 0; i < navigationBarItems.length; i++) {
-            navigationBarItems[i].classList.remove('nav-item-hover-background-change-light');
-            navigationBarItems[i].classList.add('nav-item-hover-background-change-dark');
-        }
-    }
+    // toggleGoToTopWidget();
 }
 
 function toggleGoToTopWidget() {

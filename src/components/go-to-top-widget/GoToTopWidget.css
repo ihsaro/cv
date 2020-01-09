@@ -1,0 +1,11 @@
+#divArrowGoToTop {
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+i {
+    padding-right: 5px;
+}
