@@ -4,6 +4,8 @@ import './GoToTopWidget.css';
 
 export default class GoToTopWidget extends React.Component {
 
+    private scrollAnimation: any;
+
     constructor(props: any) {
         super(props);
 
@@ -27,7 +29,7 @@ export default class GoToTopWidget extends React.Component {
         );
     }
 
-    private toggleGoToTopWidget() : void {
+    private toggleGoToTopWidget(): void {
         if (document.documentElement.scrollTop === 0) {
             $("#divArrowGoToTop").fadeOut(500);
         }
@@ -38,11 +40,9 @@ export default class GoToTopWidget extends React.Component {
 
     private goToTop(): void {
         var position = document.body.scrollTop || document.documentElement.scrollTop;
-        let scrollAnimation;
         if (position) {
             window.scrollBy(0, -Math.max(1, Math.floor(position / 10)));
-            scrollAnimation = setTimeout("goToTop()", 15);
-        } else 
-            clearTimeout(scrollAnimation);
+            this.scrollAnimation = setTimeout(this.goToTop, 15);
+        } else clearTimeout(this.scrollAnimation);
     }
 }

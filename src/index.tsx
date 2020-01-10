@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-import './json/Home.json';
-
 import NavigationBar from './components/nav-bar/NavigationBar';
 import Home from './components/home/Home';
 import GoToTopWidget from './components/go-to-top-widget/GoToTopWidget';
