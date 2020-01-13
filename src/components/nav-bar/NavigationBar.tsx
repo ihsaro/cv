@@ -18,12 +18,6 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
     }
 
     render() {
-        const items = this.props.jsonResource.NavigationBarItems.map((item: any) => {
-            return <li key={item.Name} className="nav-item nav-item-hover-background-change-light">
-                <a className="nav-link" href={item.Link}><i className={`${item.FontAwesomeIcon} nav-bar-icon-right-padding`}></i>{item.Name}</a>
-            </li>
-        })
-
         return (
             <nav id="nav-bar" className="navbar navbar-expand-md fixed-top bg-light navbar-light">
                 <a id="brand" className="navbar-brand" href="#">{this.props.jsonResource.NavigationBarBrand}</a>
@@ -34,7 +28,11 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
 
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul className="navbar-nav">
-                        {items}
+                        {this.props.jsonResource.NavigationBarItems.map((item: any) => {
+                            return <li key={item.Name} className="nav-item nav-item-hover-background-change-light">
+                                <a className="nav-link" href={item.Link}><i className={`${item.FontAwesomeIcon} nav-bar-icon-right-padding`}></i>{item.Name}</a>
+                            </li>
+                        })}
                     </ul>
                 </div>
             </nav>
