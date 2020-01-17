@@ -10,7 +10,7 @@ import GoToTopWidget from './components/go-to-top-widget/GoToTopWidget';
 
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<NavigationBar jsonResource={require('./components/home/json/Home.json')} />, document.getElementById('header'));
+ReactDOM.render(<NavigationBar jsonResource={require('./components/nav-bar/json/NavigationBar.json')} />, document.getElementById('header'));
 ReactDOM.render([<Introduction />, <Home />], document.getElementById('main'));
 ReactDOM.render(<GoToTopWidget />, document.getElementById('footer'));
 
