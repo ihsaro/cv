@@ -7,14 +7,14 @@
             "Link": "#home"
         },
         {
-            "Name": "Skills",
-            "FontAwesomeIcon": "fa fa-tools",
-            "Link": "#skills"
-        },
-        {
             "Name": "Education",
             "FontAwesomeIcon": "fa fa-university",
             "Link": "#education"
+        },
+        {
+            "Name": "Skills",
+            "FontAwesomeIcon": "fa fa-tools",
+            "Link": "#skills"
         },
         {
             "Name": "Projects",

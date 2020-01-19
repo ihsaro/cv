@@ -1,0 +1,28 @@
+{
+    "EducationCardItems": [
+        {
+            "image": "../components/introduction/images/profile_picture.jpg",
+            "title": "TERTIARY",
+            "location": "21/11/1997",
+            "result": ""
+        },
+        {
+            "image": "../components/introduction/images/profile_picture.jpg",
+            "title": "TERTIARY",
+            "location": "21/11/1997",
+            "result": ""
+        },
+        {
+            "image": "../components/introduction/images/profile_picture.jpg",
+            "title": "TERTIARY",
+            "location": "21/11/1997",
+            "result": ""
+        },
+        {
+            "image": "../components/introduction/images/profile_picture.jpg",
+            "title": "TERTIARY",
+            "location": "21/11/1997",
+            "result": ""
+        }
+    ]
+}
