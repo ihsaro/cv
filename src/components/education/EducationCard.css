@@ -9,3 +9,7 @@
     margin: auto;
     margin-top: 10px;
 }
+
+.line-breaker {
+    display: block;
+}

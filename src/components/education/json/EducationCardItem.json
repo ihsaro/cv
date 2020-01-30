@@ -1,27 +1,24 @@
 {
     "EducationCardItems": [
         {
-            "image": "../components/introduction/images/profile_picture.jpg",
+            "image": "../images/profile_picture.jpg",
             "title": "TERTIARY",
-            "location": "21/11/1997",
+            "location": "University of Mauritius",
+            "year": "2016 - 2019",
+            "result": "First class with honors"
+        },
+        {
+            "image": "../components/introduction/images/profile_picture.jpg",
+            "title": "HIGHER SCHOOL CERTIFICATE",
+            "location": "Sir Abdool Raman Osman State College",
+            "year": "2015",
             "result": ""
         },
         {
             "image": "../components/introduction/images/profile_picture.jpg",
-            "title": "TERTIARY",
-            "location": "21/11/1997",
-            "result": ""
-        },
-        {
-            "image": "../components/introduction/images/profile_picture.jpg",
-            "title": "TERTIARY",
-            "location": "21/11/1997",
-            "result": ""
-        },
-        {
-            "image": "../components/introduction/images/profile_picture.jpg",
-            "title": "TERTIARY",
-            "location": "21/11/1997",
+            "title": "SCHOOL CERTIFICATE",
+            "location": "Sir Abdool Raman Osman State College",
+            "year": "2013",
             "result": ""
         }
     ]

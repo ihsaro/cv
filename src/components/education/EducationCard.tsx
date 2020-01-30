@@ -3,19 +3,19 @@ import { IEducationProps } from './interfaces/IEducationCardProps';
 
 import './EducationCard.css';
 
-import profilePicture from '../introduction/images/profile_picture.jpg';
-
 export default class EducationCard extends React.Component<IEducationProps> {
     render() {
         return (
             <div className="card-deck">
             {
-                this.props.jsonResource.EducationCardItems.map((item: any) => {
+                this.props.jsonResource.EducationCardItems.map((item: any, index: number) => {
                     return(
                         <div className="card education-card">
-                            <img className="education-card-photo" src={profilePicture} alt="..."/>
+                            <img className="education-card-photo" src={this.props.cardPictures[index]} alt="..."/>
                             <div className="card-body">
-                                <p className="card-title">{item.title}</p>
+                                <strong className="card-title line-breaker">{item.title}</strong>
+                                <label className="line-breaker">Location: {item.location}</label>
+                                <label>Year: {item.year}</label>
                             </div>
                         </div>
                     )
