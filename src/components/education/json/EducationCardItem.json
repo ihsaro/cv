@@ -1,25 +1,81 @@
 {
     "EducationCardItems": [
         {
-            "image": "../images/profile_picture.jpg",
-            "title": "TERTIARY",
+            "title": "BACHELOR'S DEGREE",
             "location": "University of Mauritius",
             "year": "2016 - 2019",
-            "result": "First class with honors"
+            "results": [
+                {
+                    "subject": "BSc (Hons) Computer Science",
+                    "result": "First class with honors"
+                }
+            ]
         },
         {
-            "image": "../components/introduction/images/profile_picture.jpg",
             "title": "HIGHER SCHOOL CERTIFICATE",
             "location": "Sir Abdool Raman Osman State College",
             "year": "2015",
-            "result": ""
+            "results": [
+                {
+                    "subject": "Mathematics",
+                    "result": "A"
+                },
+                {
+                    "subject": "Physics",
+                    "result": "B"
+                },
+                {
+                    "subject": "Computer Science",
+                    "result": "C"
+                },
+                {
+                    "subject": "General Paper",
+                    "result": "d"
+                },
+                {
+                    "subject": "Physical Education",
+                    "result": "d"
+                }
+            ]
         },
         {
-            "image": "../components/introduction/images/profile_picture.jpg",
             "title": "SCHOOL CERTIFICATE",
             "location": "Sir Abdool Raman Osman State College",
             "year": "2013",
-            "result": ""
+            "results": [
+                {
+                    "subject": "Mathematics",
+                    "result": "2"
+                },
+                {
+                    "subject": "English",
+                    "result": "3"
+                },
+                {
+                    "subject": "French",
+                    "result": "1"
+                },
+                {
+                    "subject": "Additional Mathematics",
+                    "result": "3"
+                },
+                {
+                    "subject": "Computer Science",
+                    "result": "2"
+                },
+                {
+                    "subject": "Physics",
+                    "result": "3"
+                },
+                {
+                    "subject": "Design & Technology",
+                    "result": "3"
+                },
+                {
+                    "subject": "Physical Education",
+                    "result": "2"
+                }
+            ]
         }
     ]
 }

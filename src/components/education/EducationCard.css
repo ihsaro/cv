@@ -1,11 +1,11 @@
 .education-card {
-    margin-bottom: 10px;
-    height: 90%;
+    margin: 10px;
+    height: 95%;
 }
 
 .education-card-photo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin: auto;
     margin-top: 10px;
@@ -13,4 +13,8 @@
 
 .line-breaker {
     display: block;
+}
+
+.maximize-width {
+    width: 100%;
 }
