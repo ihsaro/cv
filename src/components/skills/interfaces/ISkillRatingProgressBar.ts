@@ -1,3 +1,3 @@
-export interface ISkillRatingProgressBar {
-    jsonResource: any;
-}
+import { IJsonResource } from "../../shared/interfaces/IJsonResource";
+
+export interface ISkillRatingProgressBar extends IJsonResource {}

@@ -8,7 +8,7 @@ export default class EducationCard extends React.Component<IEducationProps> {
         return (
             <div className="row">
             {
-                this.props.jsonResource.EducationCardItems.map((item: any, index: number) => {
+                this.props.resource.EducationCardItems.map((item: any, index: number) => {
                     return (
                         <div className="col-sm-6">
                             <div className="card education-card">

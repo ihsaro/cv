@@ -20,7 +20,7 @@ export default class Home extends React.Component {
 
                     <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
                         <h5 className="content-box-header">PERSONAL DETAILS</h5>
-                        <PersonalDetailItem jsonResource={require('./json/PersonalDetailItem.json')} />
+                        <PersonalDetailItem resource={require('./json/PersonalDetailItem.json')} />
                     </div>
                 </div>
             </div>

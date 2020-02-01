@@ -1,3 +1,3 @@
-export default interface INavigationBarProps {
-    jsonResource: any;
-}
+import { IJsonResource } from "../shared/interfaces/IJsonResource";
+
+export default interface INavigationBarProps extends IJsonResource {}

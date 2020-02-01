@@ -4,7 +4,7 @@ import { IPersonalDetailItemProps } from './interfaces/IPersonalDetailItemProps'
 export default class PersonalDetailItem extends React.Component<IPersonalDetailItemProps> {
     render() {
         return (
-            this.props.jsonResource.PersonalDetailItems.map((item: any) => {
+            this.props.resource.PersonalDetailItems.map((item: any) => {
                 return(
                     <div className="row">
                         <div className="col-md-2"><strong>{item.title}</strong></div>

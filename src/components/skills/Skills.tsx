@@ -10,7 +10,7 @@ export default class Skills extends React.Component {
                 <div className="col-md-10">
                     <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
                         <h5 className="content-box-header">SKILL RATING</h5>
-                        <SkillRatingProgressBar jsonResource={require('./json/SkillRatingProgressBarItem.json')}/>
+                        <SkillRatingProgressBar resource={require('./json/SkillRatingProgressBarItem.json')}/>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
-export interface IEducationProps {
-    jsonResource: any;
+import { IJsonResource } from "../../shared/interfaces/IJsonResource";
+
+export interface IEducationProps extends IJsonResource {
     cardPictures: any[];
 }

@@ -13,7 +13,7 @@ export default class Education extends React.Component {
                 <div className="col-md-10">
                     <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
                         <h5 className="content-box-header">MAIN PATH</h5>
-                        <EducationCard cardPictures={[userGraduate, notAvailable, notAvailable]} jsonResource={require('./json/EducationCardItem.json')} />
+                        <EducationCard cardPictures={[userGraduate, notAvailable, notAvailable]} resource={require('./json/EducationCardItem.json')} />
                     </div>
                 </div>
             </div>

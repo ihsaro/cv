@@ -8,7 +8,7 @@ export default class SkillRatingProgressBar extends React.Component<ISkillRating
         return (
             <div className="row">
             {
-                this.props.jsonResource.SkillRatingProgressBarItems.map((item: any, index: number) => {
+                this.props.resource.SkillRatingProgressBarItems.map((item: any, index: number) => {
 
                     var progressBarStyle = {
                         width: item.rating + '%',
