@@ -29,7 +29,7 @@ export default class EducationCard extends React.Component<IEducationProps> {
                                             return (
                                                 <tr>
                                                     <td>{result.subject}</td>
-                                                    <td>{result.result}</td>
+                                                    <td><u>{result.result}</u></td>
                                                 </tr>
                                             )
                                         })

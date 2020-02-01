@@ -1,0 +1,13 @@
+.progress {
+    border: 3px solid rgba(255, 255, 255, 1);
+    height: 15px;
+    width: 100%;
+}
+
+.progress-bottom-margin {
+    margin-bottom: 15px;
+}
+
+.text-right-float {
+    float: right;
+}
