@@ -5,11 +5,6 @@ import './TitleBox.css';
 import { ITitleBoxProps } from './interfaces/ITitleBoxProps';
 
 export default class TitleBox extends React.Component<ITitleBoxProps> {
-    
-    constructor(props: any) {
-        super(props);
-    }
-    
     render() {
         return (
             <div className="col-md-2 text-center title-box-bg-color">

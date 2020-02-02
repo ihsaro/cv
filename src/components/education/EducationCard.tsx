@@ -12,7 +12,7 @@ export default class EducationCard extends React.Component<IEducationProps> {
                     return (
                         <div className="col-sm-6">
                             <div className="card education-card">
-                                <img className="education-card-photo" src={this.props.cardPictures[index]} alt="..."/>
+                                <img className="education-card-photo" src={require('./images/' + item.image)} alt="..."/>
                                 <div className="card-body">
                                     <div className="text-center">
                                         <strong className="text-center card-title line-breaker">{item.title}</strong>
