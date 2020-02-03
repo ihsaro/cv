@@ -2,6 +2,8 @@ import React from 'react';
 import { IProjectItemProps } from './interfaces/IProjectItemProps';
 import { IProjectItemState } from './interfaces/IProjectItemState';
 
+import './ProjectItem.css';
+
 export default class ProjectItem extends React.Component<IProjectItemProps, IProjectItemState> {
     constructor(props: any) {
         super(props);
@@ -29,10 +31,15 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
                         repos.map((item: any, index: number) => {
                             return (
                                 <div className={index == 0? "carousel-item active": "carousel-item"}>
-                                    <img className="d-block w-100" src={require('../education/images/not-available.png')} alt="First slide" />
-                                    <div className="carousel-caption d-none d-md-block">
-                                        <h5>{item.name}</h5>
-                                        <p>{item.description}</p>
+                                    <div className="row">
+                                        <div className="col-md-6">
+                                            <img className="carousel-image" src={require('./images/' + 'guess-the-number-react' + '.png')} alt="First slide" />
+                                        </div>
+                                        <div className="col-md-6">
+                                            <h5 style={{color: 'black'}}>{item.name}</h5>
+                                            <p>{item.description}</p>
+                                            <p><a href={item.html_url} target="_blank">Link to Project</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             )
