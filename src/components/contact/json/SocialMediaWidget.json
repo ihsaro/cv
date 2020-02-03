@@ -1,7 +1,15 @@
 {
     "SocialMediaWidgetItems" : [
         {
-            "icon": "fab fa-facebook",
+            "icon": "fab fa-linkedin fa-2x",
+            "url": "https://www.linkedin.com/in/muhammad-idjaz-ali-hossanee-5b5913167"
+        },
+        {
+            "icon": "fab fa-github fa-2x",
+            "url": "https://github.com/ihsaro"
+        },
+        {
+            "icon": "fab fa-facebook fa-2x",
             "url": "https://www.facebook.com/idjaz.hossanee.90"
         }
     ]
