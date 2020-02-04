@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
+import './components/shared/All.css';
 
 import NavigationBar from './components/nav-bar/NavigationBar';
 import Introduction from './components/introduction/Introduction';

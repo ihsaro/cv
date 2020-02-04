@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.content-box-container-width {
+.content-box-container-width, .icon-container {
     width: 90%;
+}
+
+.icon-container {
+    margin-bottom: 5px;
 }

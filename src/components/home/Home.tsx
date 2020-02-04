@@ -1,16 +1,15 @@
 import React from 'react';
 
-import TitleBox from '../shared/TitleBox/TitleBox';
 import PersonalDetailItem from './PersonalDetailItem';
-
-import '../shared/All.css';
 
 export default class Home extends React.Component {
     render() {
         return (
-            <div id="home" className="row section-top-padding">
-                <TitleBox title="Home" fontAwesomeIcon="fa fa-home fa-5x" />
-                <div className="col-md-10">
+            <div id="home" className="row justify-content-center section-top-padding">
+                <div className="col-md-12">
+                    <div className="container icon-container">
+                        <i className="fa fa-home"></i>
+                    </div>
                     <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
                         <h5 className="content-box-header">ABOUT ME</h5>
                         I am a professional software developer seeking out new challenges and opportunities to grow my career. I
