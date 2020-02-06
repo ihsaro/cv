@@ -8,7 +8,14 @@ export default class SocialMediaWidget extends React.Component<ISocialMediaWidge
         return (
             this.props.resource.SocialMediaWidgetItems.map((item: any, index: number) => {
                 return (
-                    <a href={item.url} target="_blank"><i className={`${item.icon} social-media-icon`}></i></a>
+                    <div className="row">
+                        <a href={item.url} className="icon-url" target="_blank">
+                            <div className="url-div">
+                                <i className={`${item.icon} social-media-icon`}></i>
+                                <strong>{`${item.name}`}</strong>
+                            </div>
+                        </a>
+                    </div>
                 )
             })
         );
