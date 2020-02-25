@@ -11,6 +11,10 @@
     margin-top: 10px;
 }
 
+.education-card-title, .education-card-location, .education-card-year, .education-card-subject-title, .education-card-subject, .education-card-result-title, .education-card-result {
+    font-family: 'Lato';
+}
+
 .line-breaker {
     display: block;
 }

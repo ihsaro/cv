@@ -6,3 +6,11 @@
     left: 50%;
     margin-bottom: 20px;
 }
+
+#header-name {
+    font-family: 'Nunito';
+}
+
+#header-title {
+    font-family: 'Lato';
+}

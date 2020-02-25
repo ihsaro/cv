@@ -15,21 +15,21 @@ export default class EducationCard extends React.Component<IEducationProps> {
                                 <img className="education-card-photo" src={require('./images/' + item.image)} alt="..."/>
                                 <div className="card-body">
                                     <div className="text-center">
-                                        <strong className="text-center card-title line-breaker">{item.title}</strong>
+                                        <strong className="text-center card-title line-breaker education-card-title">{item.title}</strong>
                                     </div>
-                                    <label className="line-breaker"><strong>Location:</strong> {item.location}</label>
-                                    <label className="line-breaker"><strong>Year:</strong> {item.year}</label>
+                                    <label className="education-card-location line-breaker"><strong>Location:</strong> {item.location}</label>
+                                    <label className="education-card-year line-breaker"><strong>Year:</strong> {item.year}</label>
                                     <table className="maximize-width">
                                         <tr>
-                                            <th>Subject</th>
-                                            <th>Result</th>
+                                            <th className="education-card-subject-title">Subject</th>
+                                            <th className="education-card-result-title">Result</th>
                                         </tr>
                                     {
                                         item.results.map((result: any) => {
                                             return (
                                                 <tr>
-                                                    <td>{result.subject}</td>
-                                                    <td><u>{result.result}</u></td>
+                                                    <td className="education-card-subject">{result.subject}</td>
+                                                    <td className="education-card-result"><u>{result.result}</u></td>
                                                 </tr>
                                             )
                                         })

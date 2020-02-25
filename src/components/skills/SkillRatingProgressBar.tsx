@@ -18,8 +18,8 @@ export default class SkillRatingProgressBar extends React.Component<ISkillRating
                     return (
                         <div className="col-md-6 progress-bottom-margin">
                             <div>
-                                <strong>{item.title}</strong>
-                                <label className="text-right-float">{item.rating}%</label>
+                                <strong className="skill-rating-item-title">{item.title}</strong>
+                                <label className="skill-rating-item-rating text-right-float">{item.rating}%</label>
                             </div>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow={item.rating} style={progressBarStyle}></div>

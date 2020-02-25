@@ -1,28 +1,28 @@
 {
-    "NavigationBarBrand": "Idjaz Hossanee",
+    "NavigationBarBrand": "IDJAZ HOSSANEE",
     "NavigationBarItems": [
         {
-            "Name": "Home",
+            "Name": "HOME",
             "FontAwesomeIcon": "fa fa-home",
             "Link": "#home"
         },
         {
-            "Name": "Education",
+            "Name": "EDUCATION",
             "FontAwesomeIcon": "fa fa-university",
             "Link": "#education"
         },
         {
-            "Name": "Skills",
+            "Name": "SKILLS",
             "FontAwesomeIcon": "fa fa-tools",
             "Link": "#skills"
         },
         {
-            "Name": "Projects",
+            "Name": "PROJECTS",
             "FontAwesomeIcon": "fa fa-laptop",
             "Link": "#projects"
         },
         {
-            "Name": "Contact",
+            "Name": "CONTACT",
             "FontAwesomeIcon": "fa fa-phone",
             "Link": "#contact"
         }

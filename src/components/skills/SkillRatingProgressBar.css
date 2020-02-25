@@ -11,3 +11,7 @@
 .text-right-float {
     float: right;
 }
+
+.skill-rating-item-title, .skill-rating-item-rating {
+    font-family: 'Lato';
+}

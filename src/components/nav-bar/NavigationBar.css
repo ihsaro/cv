@@ -1,9 +1,23 @@
-#nav-bar {
+#brand {
     font-family: 'Montserrat', sans-serif;
+}
+
+#nav-items {
+    font-family: 'Lato';
 }
 
 nav div ul li a i {
     padding-right: 5px;
+}
+
+.nav-bar-dark-bg {
+    background-color: rgba(0, 0, 0);
+    transition: 0.3s;
+}
+
+.nav-bar-light-bg {
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
 }
 
 .nav-item-hover-background-change-light:hover {
