@@ -15,7 +15,7 @@ export default class Introduction extends React.Component {
                     <h1 id="header-name">IDJAZ HOSSANEE</h1>
                 </div>
                 <div className="row justify-content-center">
-                    <blockquote id="header-title">The wisest fool is the loudest</blockquote>
+                    <em id="header-title">The wisest fool is the loudest</em>
                 </div>
             </div>
         );

@@ -2,19 +2,44 @@
     "PersonalDetailItems": [
         {
             "title": "DATE OF BIRTH",
-            "content": "21/11/1997"
+            "content": "21/11/1997",
+            "has_navigable_icons": "false"
         },
         {
             "title": "EMAIL ADDRESS",
-            "content": "idjazhossanee@gmail.com"
+            "content": "idjazhossanee@gmail.com",
+            "has_navigable_icons": "false"
         },
         {
             "title": "COUNTRY",
-            "content": "Mauritius"
+            "content": "Mauritius",
+            "has_navigable_icons": "false"
         },
         {
             "title": "LANGUAGE",
-            "content": "English | French | Mauritian Creole"
+            "content": "English | French | Mauritian Creole",
+            "has_navigable_icons": "false"
+        },
+        {
+            "title": "SOCIAL MEDIA",
+            "has_navigable_icons": "true",
+            "navigable_icons": [
+                {
+                    "name": "LinkedIn",
+                    "icon": "fab fa-linkedin fa-2x",
+                    "url": "https://www.linkedin.com/in/muhammad-idjaz-ali-hossanee-5b5913167"
+                },
+                {
+                    "name": "Github",
+                    "icon": "fab fa-github fa-2x",
+                    "url": "https://github.com/ihsaro"
+                },
+                {
+                    "name": "Facebook",
+                    "icon": "fab fa-facebook fa-2x",
+                    "url": "https://www.facebook.com/idjaz.hossanee.90"
+                }
+            ]
         }
     ]
 }

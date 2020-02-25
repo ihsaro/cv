@@ -20,11 +20,6 @@
             "Name": "PROJECTS",
             "FontAwesomeIcon": "fa fa-laptop",
             "Link": "#projects"
-        },
-        {
-            "Name": "CONTACT",
-            "FontAwesomeIcon": "fa fa-phone",
-            "Link": "#contact"
         }
     ]
 }

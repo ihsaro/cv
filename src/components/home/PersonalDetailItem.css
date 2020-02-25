@@ -1,3 +1,25 @@
-#personal-detail-item-title, #personal-detail-item-content {
+.personal-detail-item-title, .personal-detail-item-content {
     font-family: 'Lato';
+}
+
+.social-media-icon {
+    color: rgb(0, 0, 0);
+}
+
+.icon-url:hover {
+    text-decoration: none;
+}
+
+.personal-detail-item-row {
+    line-height: 2;
+}
+
+.social-media-icon:hover {
+    color: rgb(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.social-media-icon:not(:hover) {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
 }

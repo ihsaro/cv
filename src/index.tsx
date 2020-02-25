@@ -16,7 +16,7 @@ import * as serviceWorker from './serviceWorker';
 import Education from './components/education/Education';
 
 ReactDOM.render(<NavigationBar resource={require('./components/nav-bar/json/NavigationBar.json')} />, document.getElementById('header'));
-ReactDOM.render([<Introduction />, <Home />, <Education />, <Skills />, <Projects />, <Contact />], document.getElementById('main'));
+ReactDOM.render([<Introduction />, <Home />, <Education />, <Skills />, <Projects />], document.getElementById('main'));
 ReactDOM.render(<GoToTopWidget />, document.getElementById('footer'));
 
 serviceWorker.unregister();
