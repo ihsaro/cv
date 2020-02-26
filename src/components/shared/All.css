@@ -2,6 +2,11 @@
     padding-top: 15px;
 }
 
+.section-title {
+    margin-left: 5px;
+    font-family: 'NTR';
+}
+
 .content-box-header {
     font-family: 'Montserrat', sans-serif;
 }

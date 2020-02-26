@@ -9,9 +9,9 @@ export default class Home extends React.Component {
             <div id="home" className="row justify-content-center section-top-padding">
                 <div className="col-md-12">
                     <div className="container icon-container">
-                        <i className="fa fa-home"></i>
+                        <i className="fa fa-home"><u className="section-title">Home</u></i>
                     </div>
-                    <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
+                    <div className="container p-3 content-box-container-width">
                         <h5 className="content-box-header">ABOUT ME</h5>
                         <p id="about-message">
                         I am a professional software developer seeking out new challenges and opportunities to grow my career. I
@@ -20,7 +20,7 @@ export default class Home extends React.Component {
                         </p>
                     </div>
 
-                    <div className="container shadow p-3 mb-5 bg-white rounded content-box-container-width">
+                    <div className="container p-3 content-box-container-width">
                         <h5 className="content-box-header">PERSONAL DETAILS</h5>
                         <PersonalDetailItem resource={require('./json/PersonalDetailItem.json')} />
                     </div>
