@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.01f05ad0.chunk.css",
+    "main.css": "/cv/static/css/main.e2c44cd4.chunk.css",
     "main.js": "/cv/static/js/main.3936c6f1.chunk.js",
     "main.js.map": "/cv/static/js/main.3936c6f1.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.a59e78d9.js",
@@ -8,9 +8,9 @@
     "static/js/2.8a02a11a.chunk.js": "/cv/static/js/2.8a02a11a.chunk.js",
     "static/js/2.8a02a11a.chunk.js.map": "/cv/static/js/2.8a02a11a.chunk.js.map",
     "index.html": "/cv/index.html",
-    "precache-manifest.66b2d1ce1b30214909f78a19efe9b530.js": "/cv/precache-manifest.66b2d1ce1b30214909f78a19efe9b530.js",
+    "precache-manifest.85af123a9f57cb42e9aefa5491d108d9.js": "/cv/precache-manifest.85af123a9f57cb42e9aefa5491d108d9.js",
     "service-worker.js": "/cv/service-worker.js",
-    "static/css/main.01f05ad0.chunk.css.map": "/cv/static/css/main.01f05ad0.chunk.css.map",
+    "static/css/main.e2c44cd4.chunk.css.map": "/cv/static/css/main.e2c44cd4.chunk.css.map",
     "static/js/2.8a02a11a.chunk.js.LICENSE": "/cv/static/js/2.8a02a11a.chunk.js.LICENSE",
     "static/media/guess-the-number-react.png": "/cv/static/media/guess-the-number-react.905f3f19.png",
     "static/media/not-available.png": "/cv/static/media/not-available.9322a920.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.a59e78d9.js",
     "static/js/2.8a02a11a.chunk.js",
-    "static/css/main.01f05ad0.chunk.css",
+    "static/css/main.e2c44cd4.chunk.css",
     "static/js/main.3936c6f1.chunk.js"
   ]
 }
