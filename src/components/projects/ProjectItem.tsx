@@ -24,11 +24,13 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
                             <div className="card fixed-height">
                                 <img className="card-img-top" src={require('./images/guess-the-number-react.png')} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">{item.name}</h5>
-                                    <p className="card-text">{item.description}</p>
+                                    <strong className="card-title item-name">{item.name}</strong>
+                                    <br/>
+                                    <br/>
+                                    <p className="card-text item-description">{item.description}</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                    <a className="item-url" href={item.html_url} target="_blank"><button className="btn btn-primary">LINK TO PROJECT</button></a>
                                 </div>
                             </div>
                         </div>

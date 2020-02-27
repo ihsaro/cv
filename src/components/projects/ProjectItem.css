@@ -9,3 +9,15 @@
 .fixed-height {
     height: 500px;
 }
+
+.item-name {
+    font-family: 'Lato';
+}
+
+.item-description {
+    font-family: 'Lato';
+}
+
+.item-url {
+    font-family: 'Lato';
+}

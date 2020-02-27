@@ -1,11 +1,12 @@
 import React from 'react'
 import './NavigationBar.css'
-import INavigationBarProps from './INavigationBarProps';
+import INavigationBarProps from './interfaces/INavigationBarProps';
 
 export default class NavigationBar extends React.Component<INavigationBarProps> {
 
     constructor(props: any) {
         super(props);
+        this.changeNavigationBarColorOnSmallDevicesButtonClick = this.changeNavigationBarColorOnSmallDevicesButtonClick.bind(this);
     }
 
     componentDidMount() {
@@ -21,7 +22,7 @@ export default class NavigationBar extends React.Component<INavigationBarProps> 
             <nav id="nav-bar" className="navbar navbar-expand-md fixed-top nav-bar-light-bg navbar-light">
                 <a id="brand" className="navbar-brand" href="#">{this.props.resource.NavigationBarBrand}</a>
 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <button onClick={this.changeNavigationBarColorOnSmallDevicesButtonClick} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -66,5 +67,17 @@ export default class NavigationBar extends React.Component<INavigationBarProps> 
                 navigationBarItems[i].classList.add('nav-item-hover-background-change-dark');
             }
         }
+    }
+
+    private changeNavigationBarColorOnSmallDevicesButtonClick(): void {
+
+    }
+
+    private adaptNavigationBarToLightBackground(navigationBar: any, navigationBarItems: any): void {
+
+    }
+
+    private adaptNavigationBarToDarkBackground(navigationBar: any, navigationBarItems: any): void {
+        
     }
 }
