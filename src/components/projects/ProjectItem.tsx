@@ -16,44 +16,25 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
 
     renderReposCarousel(repos: any) {
         return (
-            <div id="project-carousel" className="carousel slide" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    {
-                        repos.map((item: any, index: number) => {
-                            return (
-                                <li data-target="#project-carousel" data-slide-to={index} className={index == 0? "active": ""}></li>
-                            )
-                        })
-                    }
-                </ol>
-                <div className="carousel-inner">
-                    {
-                        repos.map((item: any, index: number) => {
-                            return (
-                                <div className={index == 0? "carousel-item active": "carousel-item"}>
-                                    <div className="row">
-                                        <div className="col-md-6">
-                                            <img className="carousel-image" src={require('./images/' + 'guess-the-number-react' + '.png')} alt="First slide" />
-                                        </div>
-                                        <div className="col-md-6">
-                                            <h5 style={{color: 'black'}}>{item.name}</h5>
-                                            <p>{item.description}</p>
-                                            <p><a href={item.html_url} target="_blank">Link to Project</a></p>
-                                        </div>
-                                    </div>
+            <div className="card-deck row">
+            {
+                repos.map((item: any, index: number) => {
+                    return (
+                        <div className="col-md-4 card-bottom-margin no-padding">
+                            <div className="card fixed-height">
+                                <img className="card-img-top" src={require('./images/guess-the-number-react.png')} alt="Card image cap" />
+                                <div className="card-body">
+                                    <h5 className="card-title">{item.name}</h5>
+                                    <p className="card-text">{item.description}</p>
                                 </div>
-                            )
-                        })
-                    }
-                </div>
-                <a className="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
+                                <div className="card-footer">
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })
+            }
             </div>
         );
     }
