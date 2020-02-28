@@ -1,11 +1,16 @@
 import React from 'react'
 import './NavigationBar.css'
 import INavigationBarProps from './interfaces/INavigationBarProps';
+import INavigationBarState from './interfaces/INavigationBarState';
 
-export default class NavigationBar extends React.Component<INavigationBarProps> {
+export default class NavigationBar extends React.Component<INavigationBarProps, INavigationBarState> {
 
     constructor(props: any) {
         super(props);
+        this.state = {
+            togglerClicked: true
+        };
+        
         this.changeNavigationBarColorOnSmallDevicesButtonClick = this.changeNavigationBarColorOnSmallDevicesButtonClick.bind(this);
     }
 
@@ -70,14 +75,38 @@ export default class NavigationBar extends React.Component<INavigationBarProps> 
     }
 
     private changeNavigationBarColorOnSmallDevicesButtonClick(): void {
+        let navigationBar = document.getElementById('nav-bar');
+        let navigationBarItems = document.getElementsByClassName('nav-item');
 
+        this.setState({
+            togglerClicked: !this.state.togglerClicked
+        });
+
+        if(this.state.togglerClicked)
+            this.adaptNavigationBarToDarkBackground(navigationBar, navigationBarItems);
+        else
+            this.adaptNavigationBarToLightBackground(navigationBar, navigationBarItems);   
     }
 
     private adaptNavigationBarToLightBackground(navigationBar: any, navigationBarItems: any): void {
-
+        navigationBar.classList.remove('nav-bar-dark-bg');
+        navigationBar.classList.remove('navbar-dark');
+        navigationBar.classList.add('nav-bar-light-bg');
+        navigationBar.classList.add('navbar-light');
+        for (let i = 0; i < navigationBarItems.length; i++) {
+            navigationBarItems[i].classList.remove('nav-item-hover-background-change-dark');
+            navigationBarItems[i].classList.add('nav-item-hover-background-change-light');
+        }
     }
 
     private adaptNavigationBarToDarkBackground(navigationBar: any, navigationBarItems: any): void {
-        
+        navigationBar.classList.remove('nav-bar-light-bg');
+        navigationBar.classList.remove('navbar-light');
+        navigationBar.classList.add('nav-bar-dark-bg');
+        navigationBar.classList.add('navbar-dark');
+        for (let i = 0; i < navigationBarItems.length; i++) {
+            navigationBarItems[i].classList.remove('nav-item-hover-background-change-light');
+            navigationBarItems[i].classList.add('nav-item-hover-background-change-dark');
+        }
     }
 }
