@@ -5,11 +5,11 @@ import INavigationBarState from './interfaces/INavigationBarState';
 
 export default class NavigationBar extends React.Component<INavigationBarProps, INavigationBarState> {
 
+    private togglerClicked: boolean;
+
     constructor(props: any) {
         super(props);
-        this.state = {
-            togglerClicked: true
-        };
+        this.togglerClicked = false;
         
         this.changeNavigationBarColorOnSmallDevicesButtonClick = this.changeNavigationBarColorOnSmallDevicesButtonClick.bind(this);
     }
@@ -52,7 +52,8 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
         if (navigationBar == null)
             return;
 
-        if (document.documentElement.scrollTop === 0) {
+        
+        if (document.documentElement.scrollTop === 0 && !this.togglerClicked) {
             navigationBar.classList.remove('nav-bar-dark-bg');
             navigationBar.classList.remove('navbar-dark');
             navigationBar.classList.add('nav-bar-light-bg');
@@ -78,14 +79,17 @@ export default class NavigationBar extends React.Component<INavigationBarProps, 
         let navigationBar = document.getElementById('nav-bar');
         let navigationBarItems = document.getElementsByClassName('nav-item');
 
-        this.setState({
-            togglerClicked: !this.state.togglerClicked
-        });
+        this.togglerClicked = !this.togglerClicked;
 
-        if(this.state.togglerClicked)
+        if(document.documentElement.scrollTop !== 0) {
             this.adaptNavigationBarToDarkBackground(navigationBar, navigationBarItems);
-        else
-            this.adaptNavigationBarToLightBackground(navigationBar, navigationBarItems);   
+        }
+        else {
+            if(this.togglerClicked)
+                this.adaptNavigationBarToDarkBackground(navigationBar, navigationBarItems);
+            else
+                this.adaptNavigationBarToLightBackground(navigationBar, navigationBarItems);
+        }
     }
 
     private adaptNavigationBarToLightBackground(navigationBar: any, navigationBarItems: any): void {
