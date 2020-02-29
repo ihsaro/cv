@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e434e3133ff272635d1c59df61186c18",
+    "revision": "b826efb732aef6db2ff8d88d5058d0bc",
     "url": "/cv/index.html"
   },
   {
-    "revision": "4873f7bdfa795edb89c2",
+    "revision": "9b802ee2a5d1a3cbba52",
     "url": "/cv/static/css/main.e74fc920.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv/static/js/2.8a02a11a.chunk.js.LICENSE"
   },
   {
-    "revision": "4873f7bdfa795edb89c2",
-    "url": "/cv/static/js/main.a061e7b1.chunk.js"
+    "revision": "9b802ee2a5d1a3cbba52",
+    "url": "/cv/static/js/main.2b87c8d0.chunk.js"
   },
   {
     "revision": "d46bbd4523c4db80951b",
     "url": "/cv/static/js/runtime-main.a59e78d9.js"
   },
   {
-    "revision": "905f3f19bbb8332a027774293cfeff7c",
-    "url": "/cv/static/media/guess-the-number-react.905f3f19.png"
+    "revision": "855e8ca01684f0d61e302ba09a177bfd",
+    "url": "/cv/static/media/image-not-available.855e8ca0.jpg"
   },
   {
     "revision": "9322a9205e1490a1f9e48e4c583c4a84",
