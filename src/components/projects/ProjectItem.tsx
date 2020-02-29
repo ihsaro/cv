@@ -22,7 +22,7 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
                     return (
                         <div className="col-md-4 card-bottom-margin no-padding">
                             <div className="card fixed-height">
-                                <img className="card-img-top" src={require('./images/guess-the-number-react.png')} alt="Card image cap" />
+                                <img className="card-img-top" src={require('./images/image-not-available.jpg')} alt="Card image cap" />
                                 <div className="card-body">
                                     <strong className="card-title item-name">{item.name}</strong>
                                     <br/>
