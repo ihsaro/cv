@@ -14,7 +14,7 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
         this.populateReposData();
     }
 
-    renderReposCarousel(repos: any) {
+    renderReposCardDeck(repos: any) {
         return (
             <div className="card-deck row">
             {
@@ -44,7 +44,7 @@ export default class ProjectItem extends React.Component<IProjectItemProps, IPro
     render() {
         let contents = this.state.loading
             ? <p><em>Loading...</em></p>
-            : this.renderReposCarousel(this.state.repos);
+            : this.renderReposCardDeck(this.state.repos);
 
         return (
             <div>

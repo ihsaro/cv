@@ -15,8 +15,9 @@ export default class Home extends React.Component {
                         <h5 className="content-box-header">ABOUT ME</h5>
                         <p id="about-message">
                         I am a professional software developer seeking out new challenges and opportunities to grow my career. I
-                        am an open-source enthusiast who works with linux as my daily driver and I my motivation to work is to
-                        make the world a place where technology ...
+                        am an open-source enthusiast who works with linux as my daily driver and my motivation to work is to
+                        make the world a place where technology is accessible to all 4 corners of the world, hence my love for 
+                        open-source technologies.
                         </p>
                     </div>
 

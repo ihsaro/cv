@@ -1,52 +1,52 @@
 {
     "SkillRatingProgressBarItems": [
         {
-            "color": "#EF5350",
+            "color": "orange",
             "title": "HTML",
             "rating": "65"
         },
         {
-            "color": "#EC407A",
+            "color": "orange",
             "title": "CSS",
             "rating": "50"
         },
         {
-            "color": "#AB47BC",
+            "color": "orange",
             "title": "Javascript",
             "rating": "70"
         },
         {
-            "color": "#7E57C2",
+            "color": "green",
             "title": "Java",
             "rating": "80"
         },
         {
-            "color": "#5C6BC0",
+            "color": "green",
             "title": "C#",
             "rating": "80"
         },
         {
-            "color": "#42A5F5",
+            "color": "orange",
             "title": "SQL",
             "rating": "65"
         },
         {
-            "color": "#26A69A",
+            "color": "orange",
             "title": "Git",
             "rating": "50"
         },
         {
-            "color": "#66BB6A",
+            "color": "orange",
             "title": "Linux",
             "rating": "60"
         },
         {
-            "color": "#FFA726",
+            "color": "orange",
             "title": "Typescript",
             "rating": "60"
         },
         {
-            "color": "#78909C",
+            "color": "orange",
             "title": "React JS",
             "rating": "50"
         }
