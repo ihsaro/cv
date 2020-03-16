@@ -17,6 +17,11 @@
             "Link": "#skills"
         },
         {
+            "Name": "WORK EXPERIENCE",
+            "FontAwesomeIcon": "fa fa-briefcase",
+            "Link": "#work-experience"
+        },
+        {
             "Name": "PROJECTS",
             "FontAwesomeIcon": "fa fa-laptop",
             "Link": "#projects"

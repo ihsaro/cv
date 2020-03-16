@@ -1,0 +1,19 @@
+.company-name, .job-period, .job-role, .job-description {
+    font-family: 'Lato';
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.job-period {
+    margin-bottom: 0px;
+}
+
+.job-role {
+    font-style: italic;
+}
+
+.experience-item-top-margin {
+    margin-top: 15px;
+}
