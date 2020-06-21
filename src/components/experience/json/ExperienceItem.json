@@ -1,22 +1,22 @@
 {
-    "ExperienceItem" : [
-        {
-            "company_name": "CERIDIAN",
-            "period": "JUNE 2019 - PRESENT",
-            "role": "Associate Software Developer",
-            "description": "Maintained existing solutions using C#, Dojo, Stylus, SQL and XML/XSD as well as implementing new items using the same technologies."
-        },
-        {
-            "company_name": "CERIDIAN",
-            "period": "June 2018 - August 2018",
-            "role": "Intern",
-            "description": "Developed and maintained existing solutions in ASP.NET Framework, mainly on the backend side. Additionally worked on powershell scripts."
-        },
-        {
-            "company_name": "PROXIMTY BBDO",
-            "period": "June 2016 - PRESENT",
-            "role": "Freelance Webmaster",
-            "description": "Maintained websites using the Sitecore CMS. Mainly edited contents with basic HTML since the architecture was already in place."
-        }
-    ]
+  "ExperienceItem": [
+    {
+      "company_name": "CERIDIAN",
+      "period": "JUNE 2019 - PRESENT",
+      "role": "Associate Software Developer",
+      "description": "Maintained existing solutions using C#, Dojo, Stylus, SQL and XML/XSD as well as implementing new items using the same technologies."
+    },
+    {
+      "company_name": "CERIDIAN",
+      "period": "June 2018 - August 2018",
+      "role": "Intern",
+      "description": "Developed and maintained existing solutions in ASP.NET Framework, mainly on the backend side. Additionally worked on powershell scripts."
+    },
+    {
+      "company_name": "PROXIMTY BBDO",
+      "period": "June 2016 - August 2016",
+      "role": "Freelance Webmaster",
+      "description": "Maintained websites using the Sitecore CMS. Mainly edited contents with basic HTML since the architecture was already in place."
+    }
+  ]
 }
